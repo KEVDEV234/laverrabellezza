@@ -90,6 +90,10 @@ header .navbar .navmenu {
     gap: 10px;
 }
 
+section {
+    overflow: hidden;
+}
+
 .navbar .navlogo .logotext {
     font-size: var(--font-size-xxl);
     color: var(--white-color);
@@ -148,6 +152,7 @@ header .navbar .navmenu {
 .hero-section .hero-details .buttons {
     display: flex;
     gap: 23px;
+    opacity: 0;
 }
 
 .hero-section .hero-details .button {
@@ -178,6 +183,7 @@ header .navbar .navmenu {
     margin-right: 30px;
     border-radius: 8px;
     box-shadow: 3px 3px 8px var(--secondary-color);
+    transform: translateX(-100%);
 }
 
 /* about section */

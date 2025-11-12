@@ -176,6 +176,8 @@ header .navbar .navmenu {
 .hero-section .hero-image-wrapper {
     max-width: 500px;
     margin-right: 30px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px var(--secondary-color);
 }
 
 /* about section */
@@ -470,6 +472,18 @@ header .navbar .navmenu {
     color: var(--white-color);
     margin: 0 5px;
 }
+
+.footer-section .dev-info p{
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+
+    a {
+        color: var(--secondary-color);
+    }
+}
+
 
 /* Responsive Web Design For 1024px */
 @media screen and (max-width: 1024px) {
